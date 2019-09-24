@@ -1,3 +1,29 @@
+
+<dependencies>
+    <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+    </dependency>
+
+    <dependency>
+        <groupId>commons-httpclient</groupId>
+        <artifactId>commons-httpclient</artifactId>
+    </dependency>
+
+    <dependency>
+        <groupId>com.example</groupId>
+        <artifactId>example-model</artifactId>
+    </dependency>
+
+</dependencies>
+<parent>
+    <groupId>com.example</groupId>
+    <artifactId>example-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+</parent>
+
+
+
 <<build>
 	<plugins>
 		
